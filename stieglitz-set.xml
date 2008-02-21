@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!--
+Hersteller Focke Wulf, 1937
+FW44 Stieglitz
+Motor Siemens SH 14 A, 150 PS bei 2200 /min, 140 kg
+Fluggewicht 870 kg 
+Kraftstoffanlage 100 l im Haupttank und 37 l im Rueckenflugbehaelter
+Hoechstgeschwindigkeit 185 km/h
+Geschwindigkeit bei Motordauerleistung 172 km/h, 2050 /min
+Geschwindigkeit bei 15% Drehzahldrosselung 154 km/h
+Landegeschwindigkeit 74 km/h
+Dienstgipfelhoehe 3900 m
+-->
+
+<PropertyList>
+ <sim>
+
+  <description>Focke Wulf FW44 Stiegltz (YASIM)</description>
+  <author>Oliver Predelli</author>
+
+  <flight-model>yasim</flight-model>
+  <aero>stieglitz</aero>
+  <fuel-fraction>0.8</fuel-fraction>
+  
+  <startup>
+   <splash-texture>Aircraft/Stieglitz/Stieglitz_Air.rgb</splash-texture>
+  </startup>
+
+  <sound>
+   <path>Aircraft/Generic/generic-sound.xml</path>
+  </sound>
+
+  <panel>
+   <visibility archive="n">false</visibility>
+  </panel>
+
+  <model>
+   <path archive="y">Aircraft/Stieglitz/Models/stieglitz.xml</path>
+  </model>
+
+<!-- rechts, oben ,hinten = x, y, z -->
+  
+  <view>
+   <internal archive="y">true</internal>
+   <config>
+     <x-offset-m archive="y">0</x-offset-m>
+     <y-offset-m archive="y">0.55</y-offset-m>
+     <z-offset-m archive="y">0.1</z-offset-m>
+     <pitch-offset-deg>-2</pitch-offset-deg>
+   </config>
+  </view>
+
+  <help>
+    <title>FW44 Stieglitz</title>
+    <line>Reisegeschwindigkeit 172 km/h</line>
+    <line>Landegeschwindigkeit 74 km/h</line>
+  </help>
+
+ </sim>
+
+ <yasim>
+  <stieglitz>
+   <pilot-lb>180</pilot-lb>
+  </stieglitz>
+ </yasim>
+
+ <controls>
+  <engines>
+   <engine n="0">
+    <magnetos>3</magnetos>
+   </engine>
+  </engines>
+ </controls>
+
+ <engines>
+  <engine>
+   <rpm type="double">0</rpm>
+  </engine>
+ </engines>
+
+ <consumables>
+  <fuel>
+   <tank n="1">
+    <level-gal_us type="double">0</level-gal_us>
+   </tank>
+  </fuel>
+ </consumables>
+
+</PropertyList>

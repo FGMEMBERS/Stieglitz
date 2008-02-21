@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Cockpit.ac</path>
+
+<!-- panel models pilot -->
+
+<model>
+ <path>Aircraft/Stieglitz/Models/Instruments/Kompass/Kompass.xml</path>
+ <offsets>
+  <x-m>-0.365</x-m>
+  <y-m>0.0</y-m>
+  <z-m>0.38</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/Stieglitz/Models/Instruments/Borduhr/Borduhr.xml</path>
+ <offsets>
+  <x-m>-0.365</x-m>
+  <y-m>-0.17</y-m>
+  <z-m>0.32</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/Stieglitz/Models/Instruments/Drehzahlmess/Drehzahlmess.xml</path>
+ <offsets>
+  <x-m>-0.365</x-m>
+  <y-m>0.17</y-m>
+  <z-m>0.32</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/Stieglitz/Models/Instruments/Hoehenmesser/Hoehenmesser.xml</path>
+ <offsets>
+  <x-m>-0.365</x-m>
+  <y-m>-0.22</y-m>
+  <z-m>0.22</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/Stieglitz/Models/Instruments/Fahrtmess/Fahrtmess.xml</path>
+ <offsets>
+  <x-m>-0.365</x-m>
+  <y-m>-0.11</y-m>
+  <z-m>0.22</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/Stieglitz/Models/Instruments/Zuendung/Zuendung.xml</path>
+ <offsets>
+  <x-m>-0.365</x-m>
+  <y-m>-0.32</y-m>
+  <z-m>0.21</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/Stieglitz/Models/Instruments/Kraftstoffdruck/Kraftstoffdruck.xml</path>
+ <offsets>
+  <x-m>-0.365</x-m>
+  <y-m>0.27</y-m>
+  <z-m>0.21</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/Stieglitz/Models/Instruments/Oeldruck/Oeldruck.xml</path>
+ <offsets>
+  <x-m>-0.365</x-m>
+  <y-m>0.19</y-m>
+  <z-m>0.21</z-m>
+ </offsets>
+</model>
+
+<model>
+ <path>Aircraft/Stieglitz/Models/Instruments/Schmierstofftemp/Schmierstofftemp.xml</path>
+ <offsets>
+  <x-m>-0.365</x-m>
+  <y-m>0.11</y-m>
+  <z-m>0.21</z-m>
+ </offsets>
+</model>
+
+</PropertyList>
