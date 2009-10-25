@@ -70,7 +70,7 @@
            cruise-rpm="2050" cruise-alt="12787"
            takeoff-power="150" takeoff-rpm="2200">
   <actionpt x="3" y="0" z="0"/>
-  <piston-engine eng-power="160" eng-rpm="2500" displacement="1462" compression="10" turbo-mul="1">
+  <piston-engine eng-power="180" eng-rpm="2500" displacement="1462" compression="10" turbo-mul="1">
     <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
     <control-input axis="/controls/engines/engine[0]/starter" control="STARTER"/>
     <control-input axis="/controls/engines/engine[0]/magnetos" control="MAGNETOS"/>
@@ -78,12 +78,12 @@
   </piston-engine>
 </propeller>
 
-<gear x="1.64" y="1" z="-1.6" compression="0.1" spring="0.70">
+<gear x="1.64" y="1" z="-1.6" compression="0.2" spring="0.6" damp="3.5" dfric="0.3" sfric ="0.60">
   <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
   <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
 </gear>
 
-<gear x="1.64" y="-1" z="-1.6" compression="0.1" spring="0.70">
+<gear x="1.64" y="-1" z="-1.6" compression="0.2" spring="0.6" damp="3.5" dfric="0.3" sfric ="0.60">
   <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
   <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
 </gear>

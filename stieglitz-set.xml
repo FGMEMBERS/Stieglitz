@@ -17,6 +17,8 @@ Dienstgipfelhoehe 3900 m
 
   <description>Focke Wulf FW44 Stiegltz (YASIM)</description>
   <author>Oliver Predelli</author>
+  <status>production</status>
+  <license>GPL v2</license>
 
   <flight-model>yasim</flight-model>
   <aero>stieglitz</aero>
